@@ -1,16 +1,16 @@
-package ordenação.OrdenaçãoDePessoas;
+package ordena��o.OrdenacaoDePessoas;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-public class OrdenaçãoPessoas {
+public class OrdenacaoPessoas {
 	
 	private List<Pessoa> listPessoa;
 	
 	
 	
-	public OrdenaçãoPessoas() {
+	public OrdenacaoPessoas() {
 		this.listPessoa = new ArrayList<>();
 	}
 
@@ -42,7 +42,7 @@ public class OrdenaçãoPessoas {
 	
 	public static void main(String[] args) {
 		
-		OrdenaçãoPessoas pessoa = new OrdenaçãoPessoas();
+		OrdenacaoPessoas pessoa = new OrdenacaoPessoas();
 		
 		pessoa.adicionarPessoa("Anthony", 22, 1.70);
 		pessoa.adicionarPessoa("Olga", 10, 1.50);
